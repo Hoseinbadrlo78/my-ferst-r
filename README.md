@@ -1,5 +1,5 @@
 node_modules/
 dist/
 .env
-.DS_Stor
+.DS_Store
 .vscode/
