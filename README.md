@@ -1,6 +1,6 @@
-
-
-git add README.md LICENSE .gitignore
-git commit -m "Add README, LICENSE and gitignore"
-git push origin 
-
+FROM node:18-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+CMD ["node", "index.js"]
