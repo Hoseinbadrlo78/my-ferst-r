@@ -19,6 +19,6 @@ jobs:
 
    
     
-   
+    - run: npm install
 
 
