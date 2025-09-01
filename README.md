@@ -6,7 +6,8 @@ on:
   pull_request:
     branches: [  ]
 
-jobs:
+jobs:atest
+
   build:
     runs-on: ubuntu-l
     
