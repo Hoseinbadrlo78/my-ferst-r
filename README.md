@@ -9,8 +9,8 @@ on:
 jobs:atest
 
   build:
-    runs-on: ubuntu-l
-    
+
+   
 
     steps:
     - uses: actions/checkout@v4
