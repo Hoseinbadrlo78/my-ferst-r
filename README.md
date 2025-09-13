@@ -9,7 +9,7 @@ on:
 
 jobs:atest
 
-  build:
+  build: runs-on: ubuntu-l
 
 
    
