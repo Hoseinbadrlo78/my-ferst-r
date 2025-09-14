@@ -1,31 +1,5 @@
-
-
-on:
-  push:
-    branches: 
-    
-  pull_request:
-    branches: [  ]
-
-jobs:atest
-
-  build: runs-on: ubuntu-l
-
-
-   
-
-
-    
-
-    steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: ''
-
-   
-    
-    - run: npm install
-
+# در پوشه‌ی ریپو
+git add README.md LICENSE .gitignore
+git commit -m "Add README, LICENSE and gitignore"
+git push origin main
 
