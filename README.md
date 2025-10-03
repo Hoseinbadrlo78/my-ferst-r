@@ -1,5 +1,13 @@
 # در پوشه‌ی ریپو
-git add README.md LICENSE .gitignore
+
+# 2) LICENSE — MIT
+```text
+MIT License
+
+Copyright (c) YEAR YOUR_NAME
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+...
 
 
 
