@@ -6,8 +6,7 @@ MIT License
 
 Copyright (c) YEAR YOUR_NAME
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-...
+Permission is hereby granted, free of charge, to any person obtaining 
 
 
 
