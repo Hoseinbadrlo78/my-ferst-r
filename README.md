@@ -4,7 +4,7 @@
 ```text
 MIT License
 h
-Copyright (c) YEAR YOUR_NAME
+Copyright (c) YEAR YOUR_
 
 Permission is hereby granted, free of charge,
 
