@@ -1,15 +1,20 @@
-# در پوشه‌ی ریپو
+name: CI
 
-# 2) LICENSE — MIT
-```text
-MIT License
-h
-Copyright (c) YEAR YOUR_
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-Permission is hereby granted, free of
-,
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-
-
-
-
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    - run: npm install
+    - run: npm test
