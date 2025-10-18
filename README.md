@@ -1,7 +1,7 @@
 
 
 
-on:
+on:hosein
   push:
     branches: [ main ]
   pull_request:
