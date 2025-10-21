@@ -4,7 +4,7 @@
 on:
 
   push:
-    branches: [  ]
+    branches: [ 
   pull_request:
     branches: [hhh  ]
 
