@@ -3,7 +3,6 @@
 
 
 
-  push:
     branches: [ ]
     
   pull_request:
