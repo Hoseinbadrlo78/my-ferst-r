@@ -7,7 +7,7 @@
 
     
   pull_request:
-    branches: [hhh  ]
+    branches: [  ]
 
 jobs:
   build:
