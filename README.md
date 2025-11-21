@@ -7,7 +7,7 @@
 
     
   pull_request:
-    branches: [  ]
+    branches: [ 3 ]
 
 jobs:
   build:
