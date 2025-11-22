@@ -6,7 +6,8 @@
 
 
     
-  pull_request:
+
+ 
     branches: [ 3 ]
 
 jobs:
